@@ -1,0 +1,119 @@
+/* this is the main color scheme for this website: https://coolors.co/618ba5-d3bfb2-755643-a57b61 */
+
+section {
+  display: none;
+}
+
+section:target {
+  display: block;
+}
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	background-color: #d3bfb2;
+}
+
+h2, h3 {
+	font-family: 'Quicksand', sans-serif;
+	color: #755643;
+	text-align:center;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+h1 {
+	font-family: 'Quicksand', sans-serif;
+	margin-left: 45px;
+	margin-right: 500px;
+	width: 50%;
+	font-size: 157px;
+	margin-bottom: 1px;
+	color: #755643;
+}
+
+p {
+	font-size: 18px;
+	color: #a57b61;
+}
+
+a:link {
+	color: #9b7559;
+	margin-left: 15px;
+}
+a:visited {
+	color: #9b7559;
+}
+a:hover {
+	color: #5b4434;
+}
+
+#workimg1, #workimg2, #workimg3 {
+  transition: transform .2s; /* Animation */
+  width: 32%;
+  height: 300px;
+  margin-left: auto;
+  border-radius: 12px;
+}
+
+#workimg1:hover, #workimg2:hover, #workimg3:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+#subpageimg {
+	margin-left: 25%;
+	width: 50%;
+	height: auto;
+}
+
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #618ba5;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  color: #755643;
+}
+
+/* Main content */
+.main{
+  margin-top: 45px; /* Add a top margin to avoid content overlay */
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #a57b61 #618ba5;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #618ba5;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #a57b61;
+    border-radius: 10px;
+    border: 3px solid #755643;
+  }
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/cursors/cur-3/cur239.ani), url(https://cur.cursors-4u.net/cursors/cur-3/cur239.png), auto !important;} /* End https://www.cursors-4u.com */
